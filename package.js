@@ -11,7 +11,7 @@ Package.describe({
 });
 Npm.depends({ 'stripe': '4.19.0'});
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.4.2');
+  api.versionsFrom('1.0.1');
   api.use('ecmascript');
   api.mainModule('stripe.js');
   api.use(['templating'], 'client');
