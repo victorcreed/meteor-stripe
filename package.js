@@ -9,12 +9,11 @@ Package.describe({
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
-
+Npm.depends({ 'stripe': '4.19.0'});
 Package.onUse(function(api) {
   api.versionsFrom('1.4.4.2');
   api.use('ecmascript');
   api.mainModule('stripe.js');
-  api.use('stripe@4.19.0');
   api.addFiles('client.html', 'client');
   api.addFiles('server.js', 'server');
 });
