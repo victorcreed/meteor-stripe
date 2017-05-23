@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4.4.2');
   api.use('ecmascript');
   api.mainModule('stripe.js');
-  api.use('stripe:4.4.0');
+  api.use('stripe@4.19.0');
   api.addFiles('client.html', 'client');
   api.addFiles('server.js', 'server');
 });
