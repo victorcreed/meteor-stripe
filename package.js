@@ -7,7 +7,7 @@ Package.describe({
   git: 'https://github.com/victorcreed/meteor-stripe',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
-  documentation: 'README.md'
+  documentation: null
 });
 Npm.depends({ 'stripe': '4.19.0'});
 Package.onUse(function(api) {
